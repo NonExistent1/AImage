@@ -6,6 +6,8 @@ With the current settings, creating a model takes approxiamately 3 days.
 
 It uses this Kaggle database: https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset. 
 
+NOTE: this program will not work on a computer with a CPU that does not support AVX instruction sets
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -17,14 +19,18 @@ It uses this Kaggle database: https://www.kaggle.com/datasets/alessandrasala79/a
 ## Installation
 
 1. Install Microsoft Visual C++ Visual Studio 2015-2022
-2. Install Python 3.12.8
-    a. Make sure to select the "add Python to PATH" option in the installer
-3. Open a terminal and enter "cd *Directory to c964 folder*"
-4. Create a virtual environment by entering "py -m venv venv"
-5. Activate the virtual environment by entering "venv/Scripts/activate"
-6. Install dependencies by entering "pip install -r requirements.txt"
-7. After the dependencies are done installing enter "jupyter notebook"
-8. If it doesn't automatically open, open a web browser and enter the URL or File provided in the terminal (Should look something like this: file:///C:/Users/Username/AppData/Roaming/jupyter/runtime/jpserver-30688-open.html)
+    a. Can be found here: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
+2. Install Python 3.12.9
+    a. Can be found here: https://www.python.org/downloads/release/python-3129/
+    b. Make sure to select the "add Python to PATH" option in the installer
+    c. Also make sure to disable the path limit
+3. Restart your computer
+4. Open a powershell terminal and enter "cd *Directory to c964 folder*"
+5. Create a virtual environment by entering "py -m venv venv"
+6. Activate the virtual environment by entering "venv/Scripts/activate"
+7. Install dependencies by entering "pip install -r requirements.txt"
+8. To start the server enter "jupyter notebook"
+9. If it doesn't automatically open, open a web browser and enter the URL or File provided in the terminal (Should look something like this: file:///C:/Users/Username/AppData/Roaming/jupyter/runtime/jpserver-30688-open.html)
 
 ## Usage (Loading the Model)
 
