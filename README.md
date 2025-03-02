@@ -16,17 +16,21 @@ It uses this Kaggle database: https://www.kaggle.com/datasets/alessandrasala79/a
 
 ## Installation
 
-1. Install Python 12.9
-2. Open a terminal and enter "cd *Directory to c964 folder*"
-3. Once the terminal is pointing to the correct directory enter "pip install -r requirements.txt"
-4. After the dependencies are done installing enter "jupyter notebook"
-5. Enter a web browser and enter the URL or File provided in the terminal (Should look something like this: file:///C:/Users/Username/AppData/Roaming/jupyter/runtime/jpserver-30688-open.html)
+1. Install Microsoft Visual C++ Visual Studio 2015-2022
+2. Install Python 3.12.8
+    a. Make sure to select the "add Python to PATH" option in the installer
+3. Open a terminal and enter "cd *Directory to c964 folder*"
+4. Create a virtual environment by entering "py -m venv venv"
+5. Activate the virtual environment by entering "venv/Scripts/activate"
+6. Install dependencies by entering "pip install -r requirements.txt"
+7. After the dependencies are done installing enter "jupyter notebook"
+8. If it doesn't automatically open, open a web browser and enter the URL or File provided in the terminal (Should look something like this: file:///C:/Users/Username/AppData/Roaming/jupyter/runtime/jpserver-30688-open.html)
 
 ## Usage (Loading the Model)
 
 After following the installation steps, you can prepare the program and make predictions with an existing model
 
-1. After following the installation steps, double-click on notebook.ipynb in the browser
+1. Double-click on notebook.ipynb in the browser
 2. Run the code in the following sections:
     a. Import Necessary Resources
     b. Prepare the Data
@@ -42,7 +46,7 @@ After following the installation steps, you can prepare the program and make pre
 
 After following the installation steps, you can prepare the program and make predictions with a new model
 
-1. double-click on notebook.ipynb in the browser
+1. Double-click on notebook.ipynb in the browser
 2. Run all of the code in the Setup and Preparation section
 3. Once these are done running, run the Predictions section
 4. After running the Predictions section an upload button will appear
